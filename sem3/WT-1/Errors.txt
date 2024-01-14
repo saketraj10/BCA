@@ -1,0 +1,105 @@
+ERRORS IN JAVASCRIPT
+--------------------
+
+1.  The statements which does not allow the program to run properly are called errors.
+
+2.  The errors in JavaScript are as follows.
+
+		---> Syntax error
+                ----> Runtime error
+                ----> Logical error
+
+3. Syntax error
+  -------------
+   ---> The grammatical error in a program is called syntax error.
+   ----> This error generated at interpretation time in JavaScript.
+
+         Example : <sript> ------</sript> 
+
+4. Runtime error
+  ----------------
+    ---> The statement which does not exist in the s/w and it is getting
+         called by the compiler/interreter during execution of the program
+         is called runtime error.
+    ---> Runtime error are also called exception.
+    ---> This error occurs during execution of the program.
+
+        Example : <script>
+                   window.alrt(" CUO");
+                  </script>
+            
+             In the above example,the system is trying to call a method alrt
+             which does not exist in the JavaScript.
+           
+               Note : The corrct method for window is alert.
+
+5.  Logical error
+    -------------
+     ------->  The error which is neither syntax nor runtime,is called logical error.
+     ------> This error is very hard  to find.
+       ---> Logical error may be OK for system but it is not showing the output
+            what is actually expected.
+
+       Example :  Rice is eating Ram.
+               The above sentence is correct for system but for the user the sentence 
+                is wrong.
+                   
+               The correct sentence is Ram is eating rice.
+
+6.  When executing JavaScript code, errors will definitely occur.
+
+7.  These errors can be handled by the following exceptions.
+
+			---> try
+                        ----> catch
+                        ---> throw
+                        ----> finally
+
+
+8. The statement which allows us to define a block of code to be tested for errors while
+   it is being executed , is called try statement.
+
+9. The statement which allows us to define a block of code to be executed if an error occurs in the 
+   try block is called catch statement.
+
+10. try and catch statement come in pairs.
+
+		Example : try
+                          {
+                          code
+                           ---
+                           --
+                           }
+                         catch(err)
+                         {
+                        --------
+                         code
+                           ------
+                          }
+
+11. The statement which is used to throw errors which are in-built  throw statment.
+   
+12. Throw can throw number,string,boolean etc.
+
+13. The statement which allows us to execute code after try and catch statement 
+    regardless of the result is called finally statement.
+
+    				try
+                            { code
+                           ---
+                           --
+                           }
+                         catch(err)
+                         {
+                          code
+                           ------
+                          } 
+                           finally {
+                             code
+                             ----
+                              }
+
+
+
+    
+

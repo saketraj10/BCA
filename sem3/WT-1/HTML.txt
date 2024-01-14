@@ -1,0 +1,83 @@
+
+SL.NO.                          NAME OF THE EXPERIMENT					DATE OF ASSIGNMENT     DATE OF SUBMISSION
+------                         --------------------------                               -------------------    -------------------
+1.   Write a simple HTML program to print CENTRAL UNIVERSITY OF ODISHA,KORAPUT.               23-09-2020         05-10-2020
+2.   Write a program in HTML to understand and implement the concept of heading tag.          24-09-2020         06-10-2020
+3.   Write a program in HTML to understyand and implement the concept of bold,underline       24-09-2020	 06-10-2020 	
+     and italic tag.   
+4.   Write a program in HTML to display the following.					      25-09-2020	 10-10-2020					      	
+			  (a+b)3 = a3+3a2b+3ab2+b3
+5.   Write a program in HTML to display CENTRAL UNIVERSITY OF ODISHA in the left,right 	      28-09-2020	 10-10-2020		
+     and center position.
+6.   Write a program in HTML to display the following table.				      01-10-2020	 12-10-2020
+7.   Write e program a program in HTML to understand and implement the concept 	              05-10-2020         13-10-2020
+     of following tags in HTML.
+			1. <br/> tag  2. <hr/> tag  3. <p>.....</p> element 
+
+8.  Write a program in HTML to understand and implement the concept of ordered list 	      09-10-2020	 15-10-2020	
+    and unordered list.			
+
+9.  Write a program in HTML to display the following output.                                  09-10-2020         17-10-2020
+  
+10. Write a program in HTML to display an image with heght 300 pixels and width 400 pixels    12-10-2020         20-10-2020 
+
+11. Write a program in HTML to understand and implement the concept of font and marquee tag.  14-10-2020         22-10-2020 
+
+12. Write a program in HTML TO understand and implement the concept of various attributes of  22-10-2020         02-11-2020 
+    marquee tag. 
+13. Write a program in HTML to understand and implement the concept of input tag with the help 05-11-2020	16-11-2020	
+    of type attribute.The output to be displayed is given below.
+
+14. Write a program in HTML to understand and implement the concept of div and span tag.       05-11-2020       16-11-2020 
+
+15.  Write a program in HTML to understand and implement the concept of <a> tag.               05-11-2020       18-11-2020 
+
+16.  Write a program in HTML to understand and implement the concept of <select> tag with      06-11-2020       25-11-2020
+     the output as mentioned. 
+ 
+17.  Write a program in HTML to understand and implement the concept of providing               11-11-2020      25-11-2020
+     background colour in a web page.    
+
+18.  Write  a program in HTML to understand and implement the concept of <form> tag             12-11-2020      27-11-2020
+     for designing form as mentioned.
+
+19.  Write  a program in HTML to understand and implement the concept of <embed> tag            12-11-2020      27-11-2020
+
+20.  Write a program in HTML to understand and imlement the concept of internal CSS              2-12-2020      12-12-2020
+
+21.   Write a program in HTML to understand and imlement the concept of external CSS            2-12-2020       12-12-2020 
+
+22.   Write a program in HTML to understand and imlement the concept of inline CSS              2-12-2020       12-12-2020
+
+23.   Write a program in HTML to understand and implement the concept of CSS properties         3-12-2020      15-12-2020 
+      in a table
+ 
+24.  Write a program in HTML to understand and implement the concept of CSS colours.            4-12-2020      20-12-2020 
+
+25.  Write a program in HTML to understand and implement the concept of ordered list            10-12-2020     25-12-2020 
+     and unordered list using CSS.
+
+26.  Write a program  HTML to understand and implement the concept of frames using              11-12-2020     27-12-2020
+     HTML
+
+27.  Write a program  HTML to understand and implement the concept of giving following          18-12-2020     29-12-2020
+     properties to a webpage.
+                 1. Giving colour to a text.
+                 2. Giving background colour to a webpage.
+                 3. Smaller text.
+                 4. Larger text. 
+                 5. Showing horizontal lines in a web page.
+                 6. Alignment of text( left,right,center etc.)    
+
+
+28. Write a program in JavaScrit to find the addition of two numbers 10 and 20.               23-12-2020         30-12-2020
+
+29. Write a program in Javascript to implement the concept of box.                             8-01-2021         15-01-2021
+
+30. Write a program in JavaScript to implement the following concepts.                       25-01-2021          30-1-2021
+
+			1. Array  2.  Loop  3. Object 
+
+
+					
+				               

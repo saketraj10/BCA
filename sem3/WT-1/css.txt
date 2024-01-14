@@ -1,0 +1,301 @@
+CSS
+----------
+1. The full form of CSS is cascading Style sheet.
+2. CSS is helpful for making the style of the web page.
+3. It is used to make the web page more presentable.
+4. There are three ways of inserting a style sheet. They are
+              I. Internal CSS
+             II. External  CSS
+             III. Inline CSS
+
+5. Internal CSS
+--------------------
+
+ ---> This type of style sheet is used if one single HTML page has a unique style.
+ ----> This style is defined using the <style> element which is inside the head section.
+ 
+
+
+Example : <html> <head> <style>
+           body { background color: red; }
+           h1 { color : maroon;
+                margin-left: 20px; }
+             </style>
+                 </head> <body> <h1> CUO</h1>
+                 <p> Koraput</p>
+                    </body> </html>
+
+6. External CSS
+--------------------
+----> Using external style sheet,the structure of website can be changed by changing one file.
+----> In external CSS,each HTML page must include a reference to the external style sheet.
+----> This reference is done using <link> element inside the head section.
+
+
+Example : <html>
+          <head>
+         < link rel="stylesheet" href="style1.css">
+           </head>
+           <body>
+                 <h1> CUO</h1>
+                 <p> Koraput</p>
+           </body>
+            </html>
+
+----> An external style sheet can be written in any text editor and must be saved in .css extension.
+----> The external style sheet should not contain tags.
+ 
+ Example :  style1.css
+            --------------
+               body {
+                background-color:blue;
+                 }
+              h1 {
+               color: red;
+                 margin-left: 20px;
+                }
+
+
+7. Inline CSS
+------------------
+
+-----> This type of style sheet is used to apply a unique style for a single element.
+-----> It uses the style attribute for the appropriate element.
+
+Example : <html>
+          <body>
+         <h1 style="color:blue;text-align:center;">
+            This is my inline CSS program</h1>
+         <p style="color:red;">This my  CUO,Koraput</p>
+            </body>
+             </html>
+
+
+CSS PROPERTIES IN A TABLE
+-------------------------
+1. A table is a cross section of rows and columns.
+2. To make the table more stylish,CSS concept can be used.
+3. To give borders in table, use the property of CSS called,  border  property.
+         
+           Example :  table,th,td
+                       {  border: 10 px solid red;
+                       }
+4. If the width of the table is used entirely, use width property.
+          Example : table { 
+                    width: 100%;
+                    }
+5.  If we want to convert the table borders into a single border,the property of CSS
+     which is used is called border-collapse.
+
+          Example : table {
+                     border-collapse: collapse;
+                      }
+
+6.  The space between the cell content and its borders,the property of CSS
+     which is used is called padding.
+         Example : th,td {
+                   padding: 10px;
+                    }
+7. To align the table headings towards left,the property of CSS
+     which is used is called text-align.
+
+	Example : th{
+                   text-align: left;
+                    }
+8. The spacing between the cells can be given using border-spacing property.
+
+           Example : table{
+                   table-spacing: 20px;
+                    }
+9.  To define special style for one particular table,the attribute which is to be added
+     is called, id.
+
+       Example :  #t1{
+                    background-color: red;
+                     }
+
+               <table id="t1">
+                <tr>
+                   <th> abc</th>
+                    </tr>
+                 <tr>
+                 <td> ddd</td>
+                   </tr>
+                 </table>    
+
+
+10. The empty-cells property of CSS specifies whether the border should be displayed 
+     if a cell is empty.
+           table {
+            empty-cells:show;
+              }
+
+
+CSS COLOUR 
+-------------
+
+1.  Various colours can be received by adding or subtracting lights of different colours.
+
+2.  Two types of colour models are
+            -----> Additive colour model  ( Red,Green,Blue model)
+            -----> Subtractive colour model  ( Cyan,Magenta,Yellow model)
+
+
+    Additive colour model                              Subtractive colour model
+
+1.  Obtained by adding lights of different        1.  Obtained by subtracting lights of different 
+    colours.                                          colours.
+
+2.  The absence of all colours is black           2.  The absence of all colours is white.
+
+3.  The presence of all colours is white.          3.  The presence of all colours is black.
+
+4.  It works with emitted light.                  4.  It works with reflected light.
+
+5. Used to dislay colours.                        5. Used to print colours.
+
+
+3. Palette
+   --------
+   It is an indexed array of 256 entries representing the amount of RGB( 3 bytes each) to be used to 
+    represent the pixel colour.( 2 to the power of 3 =8 bits for each colour)
+              R              G                      B
+     0 0 0 0 0 0 0 0    0 0 0 0 0 0 0 0    0 0 0 0 0 0 0 0 -------------> Black
+     0 0 0 0 0 0 0  1   0 0 0 0 0 0 0 1    0 0 0 0 0 0 0 1 
+  ----
+---
+------------
+----------------
+
+
+    1 1 1 1 1 1 1 1     1 1 1 1 1 1 1 1 1  1 1 1 1 1 1 1 1   -----------> White
+
+ 
+
+4.  Hi colour
+    -------------
+   It uses 16-bits to represent colour.
+
+  Total number of colours which can be generated =   2 to the power of 16 = 64x 1024 colours
+
+5.  True colour
+    ---------------
+     It uses 3bytes to represent colour.
+ 
+     
+  Total number of colours which can be generated =   2 to the power of 8 x 2 to the power of 8 x 2 to the power of 8
+
+                                                 =  256 x 256 x 256 colours
+
+
+
+
+6.            RGB colour model                       CMY colour model
+           1.  Additive                             1. Subtractive
+           2.  Used for computer dislays            2. Used for printing.
+           3.  R+ G+B = White                       3. C + M + Y = Black
+
+
+
+7.        C = 1-R, M = 1-G, Y = 1-B
+
+8.       R = 1-C, G= 1-M, B = 1-Y 
+
+9.       C + R = M + G = Y + B
+
+
+10.     A particular way of using colours is called dithering.
+
+11.    Primary colours are called gamut.
+
+12.     The process of printing continuous images in newspapers,magazines and books is called halftoning.
+
+13.      HSV model ---->  Hue , Saturation, Value  model
+
+14.    HSL model  ---->   Hue, Saturation, Lightness model
+
+15.   HSVA model --------->  Hue , Saturation, Value,Alpha model
+
+16.  HSLA model  ---->   Hue, Saturation, Lightness,Alpha model
+
+
+17. Hue is the property of light which easily describes whether a colour is red or blue or green.
+    It can be referred as pure colour.
+
+18. The intensity of colour in an image is called saturation.
+
+19. Hue value is the value between 0 to 360 degree. 0 or 360 for red. 120 for green and 240 for blue.
+
+20. Lightness is the property which measures the relative degree of black or white that has been mixed.
+     Adding white makes the colour lighter and adding dark makes the colour darker.
+
+21. The alpha is a number between o and 1. O is fully transparent and 1.0 is not  fully transparent( opaque).
+
+
+22Q. If the RGB value is (0.2,0.7,1). Find the value in the CMY sace.
+
+
+Ans:  C= 1-R = 1-0.2 =0.8
+      M = 1-G = 1-0.7=0.3
+      Y = 1-B = 1-1=0
+
+      Therefore, CMY =(0.8,0.3,0)
+
+
+23. The HTML id attribute is used to specify a unique id for an HTML element.
+
+24.  In the HTML document,we cannot have more than one element with the same id.
+
+25.  The id is used to specify a specific style declaration in a style sheet.
+ 
+26.  Rule for writing id in HTML is given below.
+                          
+                  #id-name
+                    {
+                     CSS properties;
+                    }
+
+27. The id name must not contain white space.
+
+
+ORDERED LIST AND UNORDERED LIST USING CSS
+-----------------------------------------
+
+1.  There are two main categories of HTML as far as list is concerned.
+       -------> Ordered list
+       --------> Unordered list
+
+2. In ordered list,the list items are marked with letters or numbers.
+3.  In unordered list,the list items are marked with bullets.
+
+4. The advantages of CSS list
+   ---------------------------
+    ----->  Set different list item markers for ordered list.
+    ----->  Set different list item markers for unordered list.
+    ----->  Set an image as the list item marker.
+    ----->  Specifying background colours to lists and items associated with the list.
+
+5. Different list properties of CSS
+---------------------------------- 
+     -->  list-style-type
+     -->  list-style-image
+     -->  list-style-position
+     =->  Styling list different colours 
+
+
+6.  The list-style-type property of CSS specifies the type of list item marker.
+
+7.  The list-style-image property of CSS specifies an image in the list item marker.
+
+8.  The list-style-position property of CSS specifies the position of the list item 
+    markers.
+
+9.  Any properties added to the <ol> or <ul> tag affects the entire list.
+
+10.  Any properties added to the <li>  tag will affect the individual list items.
+
+
+
+
+               
+

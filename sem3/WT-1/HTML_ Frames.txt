@@ -1,0 +1,100 @@
+HTML  FRAMES
+-------------
+
+1.  Frames are the section of the browser window which are cabale of
+    loading a HTML document.
+
+2.  The collection of frames in the browser window is called frameset.
+
+3.  The division of frames in a browser window are normally not done because 
+     each system behaves differently for creating frames.
+
+4.  All browsers may not support the concept of frames.
+
+5.  <frameset> tag is used to divide the web page into frames.
+
+6.  The rows attribute of  <frameset> tag creates horizontal frames.
+
+7.  The cols attribute of  <frameset> tag creates vertical frames.
+
+
+Example : <html> 
+          <head>
+          <title> Program for frames</title>
+          </head >
+          <frameset cols= "20%,60%,20%">
+          <frame name="left" src = "/html/left_frame.html"/>
+          <frame name="middle" src = "/html/middle_frame.html"/>
+          <frame name="right" src = "/html/right_frame.html"/>
+          </frameset>
+          </html>
+
+
+8. The <iframe> tag is used to embed another document within the current HTML document.
+
+   Example :  <html>
+          <head>
+          <title> Program for iframe tag</title>
+          </head>
+          <body>
+          <iframe src="www.cuo.ac.in" title=" CUO Website">
+          </iframe>
+          </body>
+          </html>
+
+
+9. The combination of rows and columns can be implemented using the following example.
+
+          <frameset cols= "20%,60%,20%">
+           <frameset rows= "20%,60%,20%">
+              <frame  src = "first_frame.html"/>
+              <frame  src = "second_frame.html"/>
+               <frame  src = "third_frame.html"/>
+            </frameset>
+           <frame  src = "third_frame.html"/>
+           <frame  src = "fourth_frame.html"/>
+            <frame  src = "fifth_frame.html"/>
+           </frameset>
+
+10. The height and width attribute can be taken for iframe.
+
+11. An iframe can be used as the target frame for a link.
+
+12. The target attribute of the link must refer to the name attribute of the iframe.
+
+    Example :  <iframe src="iframe1.html" name="iframe1" title=" CUO Website"></iframe>
+               <p>
+               <a href="www.cuo.ac.in" target="iframe1">CUO website</a>
+               </p>
+
+
+13.  If the browser does not support frames,then the <noframes> tag can be implemented.
+
+14. If the browser does not support frames,then the content inside <noframes> tag will be reflected.
+           <noframes> Browser not support frame </noframes>
+
+
+15. Disadvantages of frames
+  ----------------------------
+
+	---> Frames can make the website complicated.
+        ----> A user is not able to bookmark any of the web pages viewed within a frame.
+        ----> Older browsers are not able to support frames.
+        ----> The use of too many frames creates workload on the server.
+         ---> Frames are not serach engine friendly.
+         ----> Frames are not URL( uniform resource locator) friendly.  
+         ----> Frames are not supported by HTML5.
+
+
+16. Advantages of frames
+-------------------------------
+
+	---> Multiple pages can be displayed in a single window using frame.
+        ---> Frames are helpful to show some parts of the page as static
+             and some part as dynamic.
+        ---> The website will be to manage easily using frames.
+        ---> It is possible to load pages from different servers in a single frameset.
+
+
+
+          

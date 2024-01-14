@@ -1,0 +1,134 @@
+Objects in JavaScript
+---------------------
+
+1. An object is JavaScript is a collection of properties.
+
+2. Objects are used for collection of data.
+
+3. Everything in JavaScript is considered as an object.
+
+4. JavaScript is also called object based language.
+
+5. Examples of objects can be laptop,mouse,keyboard,person  etc.
+
+6. Objects can be changed or mutable in JavaScript.
+
+7. Objects can be simple data type or mutable data type.
+
+8.  Simple are unchanged.Simple are also called primitive.
+
+9.  Number,string,boolean etc. are simple data type.
+
+10. The state of the object which can be modified after it is created is called mutable object.
+
+11. The state of the object which can not be modified after it is created is called immutable object.
+
+12. Arrays and functions are examples of mutable object.
+
+13. Objects can be variables.
+
+14. Objects can contain more than one value.
+
+15. var name= { firstname: "abc",lastname: "def",midddlename : "ghi", age: 21 ,gender: "male"}
+
+16.  Object name is  "name" in point number 15.
+
+17. Properties in point number  15 are firstname,lastname,middlename,age,gender.
+
+18. Values in  point number  15 are abc,def,ghi,21,male.
+
+19. The  actions that can be performed on an object are called methods.
+
+20. Object method is an object property containing the definition of function.
+
+21.  The named values in JavaScript objects are called properties.
+
+22.  With the help of JavaScript,we can define and create our own objects.
+
+23.  There are different ways to create new objects.
+
+				--> Using object literal
+                                --> Using keyword 'new'
+                                --> Define the object constructor and create objects
+                                    of the constructur type.
+
+
+24.  Using object literal, we can create and define on object in one statement.
+
+        Example :  var name= { firstname: "abc",lastname: "def",midddlename : "ghi", age: 21 ,gender: "male"}
+
+                  Where object literal  syntax is  property name : value
+                                        Example : gender : "male"
+
+25.  Using keyword new,the object can be defined and created with the following statement.
+
+          Example :       var name= new object();
+                           name.firstname ="abc";
+                           name.lastname="def";
+                           name.middlename="ghi";
+                           name.age=21;
+                           name.gender="male";
+
+26.  The point number 24 is equal to point number 25.
+
+27. Objects are mutable.They are addressed by reference.
+
+          Example:  var name= { firstname: "abc",lastname: "def",midddlename : "ghi", age: 21 ,gender: "male"}
+                    Var a = name;
+                   
+          Please note :  In the above example,if i change the value of a , the same change will happen to name.
+                         Because, a and name are the same object.
+
+                Example :  var name= { firstname: "abc",lastname: "def",midddlename : "ghi", age: 21 ,gender: "male"}
+
+                          Var a = name;
+                          a.gender="female";
+                        This gender value will be changed in both the objects,i.e., name and a .
+
+28. The delete keyword deletes the property of an object.
+
+                   Example : delete name.age;
+
+
+29. In an object ,the keyword 'this' can be used.
+
+         Example : var name= { firstname: "abc",lastname: "def",midddlename : "ghi",fullname : function() {
+                                 return this.firstname + " " + this.middlename +" " + this.lastname; } }
+          
+               In this example , this refers to the object called name.
+                                 The method fullname belongs to the name object.
+                              The fullname will return the abc ghi def.
+
+
+30.    x= name.fullname();
+
+       The above command will return abc ghi def.
+
+31.    x= name.fullname;
+     
+       The above command will return  the following output.
+          
+           return this.firstname + " " + this.middlename +" " + this.lastname; }   
+
+
+32. DOCUMENT OBJECT MODEL      (  DOM )
+  ---------------------------
+
+		---> Using DOM, JavaScript can access and change all the elements of an HTML document.
+                ---> The browser always creates a DOM of the page when a web page is loaded.
+                --->  A tree of objects in JavaScript is called a DOM.  
+                ---> This model is nothing but a standard for accessing documents.
+               ----> The HTML DOM means the following.
+                           :--- How to change,delete and add HTML elements.
+
+
+
+
+
+
+
+
+
+
+
+ 

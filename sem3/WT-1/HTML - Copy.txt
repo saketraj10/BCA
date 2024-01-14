@@ -1,0 +1,265 @@
+
+TERMINOLOGIES  OF HTML
+------------------------
+
+1.  BODY
+  ---------
+  1.  The body is the container for all of a page's content comes after the head tag.
+  2.  This tag comes within the overall html tag.
+
+ Example :  <html> <head><title> My first program </title> </head><body> This is my program </body></html> 
+
+2.  COMMENT
+   -----------
+
+  1.  HTML comments are used in code of HTML program to explain the details of the program.
+  2.  It is similar to comments in other languages.
+  3.  Comments are not visible in the browser.
+
+ Example :  <! This is my first program >
+
+3.  HEAD
+    --------
+  1.  This tag's content  is not visible to the user but it is very much important for the browser.
+  
+   Example : <html> <head> My first program</head> <title> </title> <body></body></html>
+
+4.  HEADINGS   
+   ----------- 
+  1.  This heading tag is an outline of our content in a webpage.
+  2.  HTML has six levels of headings starting from h1 till h6.
+   Example :  <h1>content</h1>
+
+5.  SPAN 
+   ----------
+  1.  <span> element is used to color a part of a text or part of a document.
+  2.   It is also called inline element.
+  Example :  <span>content</span> 
+
+
+6.  DIV
+   ---------
+ 1.  The <div> tag defines a division or a section in an HTML document.
+ 2.   It is also called block-level element.
+ 3.   It contains different types of content and all are related to same thing.
+
+ Example : <div> content</div>
+
+7. EM
+ ---------------
+1.  This tag is used to define emphasized text.
+2.  The content written inside em element is normally displayed in italics.
+
+ Example :  <em>content</em> 
+	
+
+8. FORM
+  -----------
+1. The form tag is used create an HTML document for user input.
+2. It can contain one or more form elements.
+ Example : <form>content</form>
+
+9. BR
+ --------
+
+1. This tag produc es a line break in the text.
+2. It is used for division of lines.
+
+Example : <br>
+
+10. HR
+------------
+
+1.  This tag is used to create horizontal line in an web page.
+2.  Contents in an HTML page can be separated using hr tag.
+
+Example : <hr>
+
+11. SUB
+-------------------
+
+1.  This tag is used to create a subscript text.
+2.  Mostly used for describing chemical formulae.
+
+Example :  <sub>content</sub>
+
+12.  SUP
+--------------
+
+1.  This tag is used to create a superscript text.
+2.  Used for representing mathematical equations.
+
+Example : <sup>content</sup>
+
+13.  B
+--------------
+
+1.  This tag is used for creating the text bold.
+
+Example :<b>content</b>
+
+14.  STRONG
+-----------------
+
+1. This tag is used to make important highlight on the content.
+2. For strong imporatnce,this tag is taken into picture.
+
+Example :<strong>content</strong>
+
+15. I
+--------------------
+
+1. This tag is used to make the text italic.
+
+Example : <i>content</i>
+
+16. <!content>
+---------------------
+
+1. In order to give comment for  the web page,comment tag is used.
+2. This tag uses exclamatory symbol after opening anlge bracket inorder to make the content as comment.
+
+Example :  <!My first program>
+
+17.  P
+----------------
+
+1.  This tag is also called paragraph element.
+
+2.   It is used to create paragraph in a web page.
+
+Example : <p>content</p>
+
+18.  A
+---------------------
+
+1.  This tag is used to create hyperlink in a webpage.
+
+2.  The important attribute for  <a> tag  is href.
+
+Example <a href="address">content</a>
+
+19.  MARQUEE
+-------------------
+
+1.  This defines a scrolling text area in the HTML document that moves across the page in a horizontal
+    or vertical direction.
+
+2.  The content in the marquee tag scroll from right to left by default.
+
+Example: <marquee>content</marquee>
+
+20.  CONTAINER
+ -----------------------
+
+1. The tag which is beginning with opening tag  and ending with closed tag is called container tag.
+
+Exmaple :  <p> tag is a container tag.
+           <input> tag is not a container tag.
+
+21.  CSS
+ --------------------
+
+1.  CSS stands for cascading style sheet.
+
+2.  HTML elements can be displayed using various formats using CSS tag.
+
+3.  CSS makes the web page more attractive.
+
+22. IMG
+-----------------------------
+
+1.  This tag is used to embed an image in the web page.
+2.   The img tag has a important attribute,called src which is used to give path to the image.
+ 
+Example : <img src="address">
+
+23. HTML
+-----------------------
+
+1. This tag specifies the root of a HTML document.
+2.  It is the container for all other HTML elements.
+
+Example :  <html>content</html>
+
+24.  TAG
+--------------
+
+1.  HTML tags are the keywords within a web page which indicates how the web browser is going to display the content.
+2.   Most of the tags are coming with opening tag and closing tag.
+
+25.  TITLE
+-----------------
+
+1.  This tag displays the content in a web browser's title bar.
+2.   This tag contains only text.
+
+Example : <title>content</title>
+
+26.  COLOR
+    ------------
+
+  1.  It is visual perception that helps us to distinguish one object from the other object.
+  2.  The primary colours are red,green and blue. ( RGB)
+  3.   R contains 8 bits to represent colour,G contains 8 bits to represent colour and B 
+       contains 8 bits to represent colour.
+
+
+  4.                           R                        G                           B              R    G    B
+                   ----------------------     -----------------             -----------------    ---  ----  ---
+                   0 0 0 0   0 0 0 0         0 0 0 0  0 0 0 0              0 0 0 0 0 0 0 0         0    0    0  ---> Black
+                   0 0 0 0   0 0 0 1         0 0 0 0  0 0 0 1              0 0 0 0 0 0 0 1         1    1    1
+                   ......................................................................         .............
+                    ......................................................................        .............              
+                   1 1 1 1   1 1 1 1         1 1 1 1  1 1 1 1              1 1 1 1 1 1 1 1       255   255   255 ---> White
+
+
+  5.    R + G + B = 1 ( White)
+
+  6.    R = 1- C , G = 1- M , B = 1 - Y  ( C = Cyan ,M = Magenta , Y = Yellow)
+
+  7.                     R                            G                          B
+                      -----------                --------------            ----------
+                       0 0                          0 0                       0 0
+                       0 1                          0 1                       0 1
+                     ------------------------------------------------------------- 
+                     ---------------------------------------------------------------
+                       F F                         F F                       F F
+
+  8.   The HTML code for red colour in hexadecimal is  #FF0000.
+
+ 9.   The HTML code for green  colour in hexadecimal is  #00FF00.
+ 
+
+ 10.  The HTML code for black colour in hexadecimal is  #000000.
+
+11.   The HTML code for red colour in decimal  is  RGB( 255,0,0).
+
+12.   The HTML code for white colour in decimal  is  RGB( 255,255,255).
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+				               

@@ -1,0 +1,341 @@
+JavaScript
+-------------
+
+1.  It is a scripting language.
+2.  It is very easy to implement and it is integrated with HTML.
+3.  It is best for Engineers who are working in the web development domain.
+4.  It is used to help Engineers for developing front end and back end softwares.
+5.  JavaScript is available on all modern web browsers.
+6.  It helps us to create beautiful websites.
+7.  JavaScript can be used for app development.
+8.  It is used to manipulate HTML pages.
+9.  Beautiful presentations can be designed using JavaScript.
+10. It is not a fully-fledged programming language.
+11. It is not used for networking applications.
+12. It makes web pages more interactive.
+13. Notepad is used to write coding for JavaScript.
+14. JavaScript can be implemented using <script>-------</script> tag.
+15. If the JavaScript is not supported by browser,then <noscript> tag content  gets displayed.
+16. JavScript uses three data types ( numbers,strings,boolean)
+17. All numbers in JavaScript are considered as float values.
+18. For variables in JavaScript,var keyword is used.
+19. JavaScript variables are case sensitive.
+20. The operators are +,-,/,*,% etc.
+
+
+
+BOX IN JAVASCRIPT
+-------------------
+
+Javascript has three types of boxes.
+
+1. Alert box
+2. Confirm box
+3. Prompt box
+
+
+ALERT BOX
+-----------
+
+1. The box which is used to get the data or information from the user is 
+   called alert box.
+
+2. These boxes normally pop up when successfully implemented.
+
+Syntax in JavaScript
+--------------------
+
+window.alert("text')
+
+Where text = any message
+
+Example 
+--------
+window.alert("Please click this box")
+
+
+CONFIRM BOX
+------------
+
+1.  The box which is used to verify or accept  the data or information by the user is 
+   called confirm box.
+
+2. This box comes up with two options  I. OK  II. Cancel
+
+3. The box returns true for OK and false for cancel.
+
+Syntax in JavaScript
+--------------------
+
+window.confirm("text')
+
+Where text = any message
+ 
+Example 
+----------
+ if (window.confirm("Click the button"))
+ {
+  txt= "OK";
+}
+else
+{
+ txt="Cancel";
+}
+
+
+PROMPT BOX
+---------------
+1.  The box which is used to enter a value by the user is called prompt box.
+
+2. After entering a value,the box pops up with options to click.
+
+3.  The box retuns the input value if OK clicked else the box retuns null if Cancel clicked.
+
+
+Syntax in JavaScript
+--------------------
+
+window.prompt("text',"default text")
+
+Example
+-----------
+
+Var x = window.prompt("Please enter the University name","CUO")
+if ( x == null || x == " ")
+{
+txt= " Prompt box cancelled";
+}
+else
+{
+txt= " My University name is " +x+ ";
+} 
+
+LOOPS IN JAVASCRIPT
+---------------------
+
+1.  The concept which is used to execute certain statements multiple number of times is called
+    loop.
+
+2.  The different kinds of loops associated with JavaScript are as follows.
+
+	--> For 
+        --> For/in
+        --> For/of
+        --> While
+        ---> do/while
+
+3.   for (i=1;i<11;i++) is one example of for loop.
+
+4.  Example
+    ------
+         <script>
+          var i;
+         for(i=1;i<11;i++)
+         {
+         console.log(i);
+         }
+         </script>
+
+5.  Another  example of for loop
+   --------------------------------
+
+      <script>
+       var x= ["abc", "def","ghi", "jkl"];
+       var length1 = x.length;
+       var string1= " ";
+      for<i=1;i<length1;i++)
+         {
+         string1+=x[i] ;
+       }
+       </script>
+
+6.  The while loop continuously executes blocks of code as long as the condition is true.
+
+7.  Example
+    -------------
+         <script>
+         var x="";                                                      
+         var i=1;
+        while( i<11)
+         {
+        x+="the numbers are" +i;
+        i=i+1;
+       }
+        </script>
+
+8. The for/in loop is used to describe the properties of an object in JavaScript.
+
+9. Example
+   ------
+       <script>
+           var x="";
+           var name= { firstname: "abc",lastname: "def",midddlename : "ghi", age: 21 ,gender: "male"};
+           var y;
+           for ( y in name)
+               {
+                x=x+name[y];
+                }
+         </script>
+
+
+  ARRAY  CONCAT()  METHOD
+-------------------------------
+
+1.  The concat() method is JavaScrit is used to concate arrays.
+
+Example
+--------
+
+  <!Arraymethod html>
+ <html>
+<body>
+<p> Click the button to join two arrays</p>
+<button onclick="myFunction()"> Implement concat method for array </button>
+<p id="x"> </p>
+<script>
+
+  function myFunction()
+    {
+      Var a = [ "bird","mouse"];
+      Var b = [ "rat","tiger"];
+    
+    var z = a.concat(b);
+
+  document.getElementById("x").innerHTML = z;
+   }
+</script>
+</body>
+</html>
+
+Output : bird mouse rat tiger
+
+ARRAY  FOREACH() METHOD
+-------------------------
+1.  The foreach() method calls a function once for each element in an array, in order.
+
+2. The function is not executed for array elements without values.
+
+Example
+-------
+<!Foreach html>
+<html>
+<body>
+<p> Get the sum of the numbers in the array</p>
+<p id="x"></p>
+<script>
+ Var x=0;
+ Var n={1,2,3,10};
+n.forEach(myFunction);
+
+function myFunction(number)
+{
+  sum= x  + number;
+document.getElementById("x").innerHTML=sum;
+}
+</script>
+</body>
+</html>
+ 
+Output : 16
+
+
+STRING
+-------
+
+1. It is a group of characters containing alphabets,numbers and spaces.
+
+2. The properties of a string are
+                 -> String length
+                 --> String constructor
+                 --> indexOf()
+                 ---> charAt()
+
+3. String length
+ ----------------
+
+		--> The length property returns the length of a string.
+
+                Example :  var x = "ABCDEF";
+                           var y=x.length;
+        
+                               Output :  6
+
+
+       Note : The length of an empty string = 0.
+
+4. indexOf()
+----------------
+
+	---> The indexOf() method returns the index of the first occurrence of a 
+              specified text in a string.
+
+          Example : var x="Central University of Odisha" ;
+                    var y=x.indexOf("of");
+
+                Output :  19
+
+
+5. charAt()
+------------
+
+	---> The charAt() method returns the character at the specified index in a string.
+
+          Example : var x="Central";
+                    var  y=x.charAt(2);
+
+            Output :  n
+
+
+6.  The string constructor property of string returns the string's constructor function.
+    The return value is a reference to the function. 
+    The return value is not the  name of the function.
+
+	Example :  var x="Central";
+                   var y= x.constructor;
+             
+           Output : function string() {[native code]}
+   
+                  
+FORM VALIDATION  IN JAVASCRIPT
+-------------------------------
+
+1. The technical process where a web-form checks if the information 
+   provided by the user is correct or not , is called form validation.
+
+2. Validation is a process which normally comes after verification.
+
+3. JavaScript provides a way to validate form's data on the client's 
+   computer before sending it to the web server.
+
+ Example :  function validateForm()
+             {
+                  var x = document.forms["myForm"] 
+                    ["fname"].value;
+                 if ( x=="")
+                 {
+                 window.alert("The name box must be filled");
+                  return false;
+                 }
+            }  
+
+ 4. Validation always meets customer's requirements.
+
+
+	Example :  Are you building software,right ?  ( Verification)
+                   Are you building right software! ( Validation)
+ 
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
