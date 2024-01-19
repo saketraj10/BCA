@@ -1,0 +1,17 @@
+<html>
+<head><title>Manipulating Object  "for/in" Loop</title>
+<script type = "text/javascript">
+var Student = {fname:"Sachin", lname:"Tendulkar", age:45};
+
+var text = "";
+var x;
+for (x in Student) {
+  text += Student[x] + " ";
+document.write("The index is: "+ x );
+document.write(" The value is: " + Student[x] + "<br>");
+}
+
+document.write(text);
+</script>
+</body>
+</html>

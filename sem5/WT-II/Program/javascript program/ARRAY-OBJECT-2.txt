@@ -1,0 +1,19 @@
+<html>
+<head><title>CREATING ARRAY LITERAL</title>
+
+<script type="text/javascript">
+var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; 
+
+</script>
+</head>
+<body>
+
+<script type="text/javascript">
+for(var i in week)
+{
+document.write("week[" + i + "] "+ week[i] + "<br>");
+}
+</script>
+
+</body>
+</html>

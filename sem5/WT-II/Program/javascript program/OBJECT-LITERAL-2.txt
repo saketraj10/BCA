@@ -1,0 +1,23 @@
+<html>
+<head><title>Object Literals With Properties and Methods</title>
+<script type = "text/javascript">
+var Car = { 
+           company:"Maruti-Suzuki",
+	   year:2017,
+	   model:"Baleno",
+	   price:undefined,
+	   print:function()
+	{
+document.write("<br>Car model "+ Car.model + " with price " + Car.price + " which is built by " + Car.company + " in year " + Car.year);
+	}
+	};
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+Car.price="8,00000";
+Car.print();
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head><title>Manipulating Object  "for/in" Loop</title>
+<script type = "text/javascript">
+var Student = {fname:"Sachin", lname:"Tendulkar", age:45};
+
+var text = "";
+var x;
+for (x in Student) {
+  text += Student[x] + " ";
+}
+
+document.write(text);
+</script>
+</body>
+</html>

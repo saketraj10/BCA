@@ -1,0 +1,48 @@
+<?php
+class Student {    // Use constructor in program AND Method Overriding
+  // Properties
+  public $regdno;
+  public $name;
+
+  // Methods
+  function __construct($r,$n)
+ {
+    $this->regdno = $r;
+    $this->name = $n;
+  }
+ 
+function get()
+ {
+    echo "Registration Number:$this->regdno and Name:$this->name";
+    
+  }
+ 
+}
+class Exam extends Student
+{
+  // Properties
+  public $mark;
+  
+
+  // Methods
+  function __construct($r,$n,$mark)
+ {
+    $this->regdno = $r;
+    $this->name = $n;
+    $this->mark = $mark;
+    
+  }
+ 
+function get()
+ {
+    echo " Registration Number:$this->regdno and Name:$this->name and Mark is:$this->mark";
+    
+  }
+ 
+}
+$a = new Exam('18/04/CS-07','Sachin',85);
+
+
+echo "<br>";
+echo $a->get();
+?>

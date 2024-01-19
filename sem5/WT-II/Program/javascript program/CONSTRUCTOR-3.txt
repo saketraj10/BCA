@@ -1,0 +1,25 @@
+
+<html>
+
+<head><title>The Object() Constructor</title>
+<script type = "text/javascript">
+
+var dept = new Object();
+dept.name="Computer Science";
+dept.id="DCS";
+function display()
+{
+
+document.write("<br>department name is " + dept.name);
+document.write("<br>department id is " + dept.id);
+}
+</script>
+</head>
+<body>
+/*METHOD AND INITIALIZING PROPERTIES OUTSIDE METHOD*/
+
+<script type = "text/javascript">
+dept.display();
+</script>
+</body>
+</html>

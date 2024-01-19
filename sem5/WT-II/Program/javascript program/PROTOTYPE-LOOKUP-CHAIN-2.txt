@@ -1,0 +1,26 @@
+</html>
+<head><title>Object Properties</title>
+<script type="text/javascript">
+ function Book(title, author)
+   {
+    this.title =title;
+    this.author=author;
+   }
+</script>
+</head>
+<body>
+
+<script>
+	var book1 = new Book("ANSI C","Balagurusamy");
+	var book2 = new Book("Let Us C", "Yashwant Kanetkar");
+	Book.prototype.publisher="TMH";
+	Object.prototype.category=" C Programming Book";
+	
+	document.write(book1.title + " is published by "+  book1.publisher + " and is in the " + book1.category + " category <br />");
+	document.write(book2.title + " is published by "+  book1.publisher + " and is in the " + book1.category + " category <br />"); 
+var book3 = new Book("Let Us C++", "S Kumar");
+document.write(book3.title + " is published by "+  book3.publisher + " and is in the " + book3.category + " category <br />"); 
+</script>
+
+</body>
+</html>

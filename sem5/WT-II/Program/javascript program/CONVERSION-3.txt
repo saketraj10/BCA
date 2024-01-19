@@ -1,0 +1,9 @@
+<html>
+<body>
+<script type="text/javascript">
+var a=parseInt(prompt("Enter First Number: ", ""));
+var b=parseInt(prompt("Enter Second Number: ", ""));
+document.write(a+b);
+</script>
+</body>
+</html>

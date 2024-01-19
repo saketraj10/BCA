@@ -1,0 +1,22 @@
+</html>
+<head><title>Object Properties</title>
+<script type="text/javascript">
+ function Book(title, author)
+   {
+    this.title =title;
+    this.author=author;
+   }
+</script>
+</head>
+<body>
+
+<script>
+	var book1 = new Book("ANSI C","Balagurusamy");
+	var book2 = new Book("Let Us C", "Yashwant Kanetkar")
+	book1.publisher="TMH";
+	document.write(book1.title + " is published by "+ book1.publisher + "<br />");
+	document.write(book2.title + " is published by " + book2.publisher); 
+</script>
+</big>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*CONSTRUCTOR AND INLINE FUNCTION AS METHOD*/
+<html>
+
+<head><title>The Object() Constructor</title>
+<script type = "text/javascript">
+
+function Square(n)
+{ 
+
+this.num=n;
+this.calculate=function() { return n * n; } 
+}
+</script>
+</head>
+<body>
+/*METHOD AND INITIALIZING PROPERTIES OUTSIDE METHOD*/
+
+<script type = "text/javascript">
+var s = new Square(6);
+alert("Square : "+ s.calculate());
+</script>
+</body>
+</html>

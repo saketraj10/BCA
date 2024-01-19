@@ -1,0 +1,31 @@
+/*CREATION OF CLASS USING FUNCTION AND DECLARATION OF OBJECT WITH PASSING PARAMETERS USING this POINTER*/
+<html>
+
+<head><title>class</title>
+
+<script type = "text/javascript">
+
+function dept(name,id)
+{
+this.name=name;
+this.id=id;
+}
+
+var cs=new dept("Computer Science","DCS");
+var hd=new dept("Hindi", "DH");
+
+</script>
+</head>
+
+<body>
+
+
+<script type = "text/javascript">
+document.write("<br>department name is " + cs.name);
+document.write("<br>department id is " + cs.id);
+document.write("<br>department name is " + hd.name);
+document.write("<br>department id is " + hd.id);
+</script>
+
+</body>
+</html>

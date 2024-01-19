@@ -1,0 +1,29 @@
+<html>
+<head><title>Object Literals With Properties Within Another Properties(Nested) and Methods</title>
+<script type = "text/javascript">
+var Car = { 
+           company:"Maruti-Suzuki",
+	   detail:{ year:2017,
+	   	    model:"Baleno"
+                   },
+	   price:undefined,
+	   print:function()
+	{
+document.write("<br>Car model "+ Car.detail.model + " with price " + Car.price + " which is built by " + Car.company + " in year " + Car.detail.year);
+	}
+	};
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+Car.price="8,00000";
+Car.print();
+Car.company="Toyota";
+Car.detail.year="2012";
+Car.detail.model="Furtuner";
+Car.price="30,00000";
+Car.print();
+</script>
+</body>
+</html>

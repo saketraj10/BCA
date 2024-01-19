@@ -1,0 +1,31 @@
+<?php
+interface A
+{
+
+public function display1($name);
+}
+
+interface B extends A
+{
+
+public function display2($regdno);
+}
+
+class C implements B
+{
+
+public function display1($name)
+{
+echo "Interface A:$this->name = $name";
+}
+public function display2($regdno)
+{
+echo "Interface B: $this->regdno = $regdno";
+}
+
+}
+
+$c = new C();
+$c->display1('Sachin');
+$c->display2('18/04/DCS/07');
+?>

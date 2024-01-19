@@ -1,0 +1,8 @@
+<script type="text/javascript">
+car = new Object();
+c = "color"
+car["name"] = "Baleno"; // same as car.name = “Baleno”
+car[c] = "blue"; // same as car.color = “blue”;
+document.write(car.name + " is " + car.color + "<br>");
+document.write(car["name"] + " is " + car[c] + "<br>");
+</script>

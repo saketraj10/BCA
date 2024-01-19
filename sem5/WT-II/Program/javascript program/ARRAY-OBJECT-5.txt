@@ -1,0 +1,17 @@
+<html>
+<head><title>Associative Arrays</title></head>
+<body>
+
+<script type="text/javascript">
+var states = new Array();
+states["OD"] = "Odisha";
+states["AP"] = "Andhra Pradesh";
+states["WB"] = "West Bengal";
+for( var i in states )
+{
+document.write("The index is: "+ i );
+document.write(" The value is: " + states[i] + "<br>");
+}
+</script>
+</body>
+</html>

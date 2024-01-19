@@ -1,0 +1,36 @@
+<html>
+
+<head><title>class</title>
+
+<script type = "text/javascript">
+
+function dept(name,id)
+{
+this.name=name;
+this.id=id;
+}
+
+var cs=new dept("Computer Science","DCS");
+var hd=new dept("Hindi", "DH");
+
+</script>
+</head>
+
+<body>
+
+
+<script type = "text/javascript">
+with(cs)
+{
+document.write("<br>department name is" + name);
+document.write("<br>department id is" + id);
+}
+with(hd)
+{
+document.write("<br>department name is" + name);
+document.write("<br>department id is" + id);
+}
+</script>
+
+</body>
+</html>

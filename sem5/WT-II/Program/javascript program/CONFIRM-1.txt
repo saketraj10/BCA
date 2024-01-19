@@ -1,0 +1,12 @@
+<html>
+<body>
+<script type="text/javascript">
+if(confirm("Are you ready?") == true){
+alert("Then we can proceed!");
+}
+else{
+alert("We'll try when you are ready? ");
+}
+</script>
+</body>
+</html>

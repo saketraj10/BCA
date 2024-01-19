@@ -1,0 +1,27 @@
+<html>
+<head><title>Manipulating Object  "With" Key Word</title>
+<script type = "text/javascript">
+var Car = { 
+           company:"Maruti-Suzuki",
+	   year:2017,
+	   model:"Baleno",
+	   price:undefined,
+	   print:function()
+	          {
+         	     with(this)
+			{
+	document.write("<br>Car model "+ this.model + " with price " + this.price + " which is built by " + this.company + " in year " + this.year);
+			}
+		  }
+	};
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+Car.price="8,00000";
+Car.print();
+
+</script>
+</body>
+</html>

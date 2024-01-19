@@ -1,0 +1,22 @@
+<html>
+<head><title>Object Literals</title>
+<script type = "text/javascript">
+var Car = { 
+           company:"Maruti-Suzuki",
+	   year:2017,
+	   model:"Baleno",
+	   price:undefined,
+	   };
+	
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+Car.price="8,00000";
+document.write("<br>Car model  "+ Car.model + " with price " + Car.price + " which is built by " + Car.company + " in year " + Car.year);
+document.write("<br>Car model  "+ Car["model"] + " with price " + Car["price"] + " which is built by " + Car["company"] + " in year " + Car["year"]);
+</script>
+</body>
+</html>

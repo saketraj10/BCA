@@ -1,0 +1,44 @@
+<?php
+// Interface Extends/Inherits Another Interface
+
+interface A
+{
+
+public function display1($name);
+}
+
+interface B extends A
+{
+
+public function display2($regdno);
+}
+
+interface C
+{
+
+public function display3($mobno);
+}
+
+class D implements B,C
+{
+
+public function display1($name)
+{
+echo "Interface A:$name";
+}
+public function display2($regdno)
+{
+echo "Interface B:$regdno";
+}
+public function display3($mobno)
+{
+echo "Interface B:$mobno";
+}
+
+}
+
+$d = new D();
+$d->display1('Sachin');
+$d->display2('18/04/DCS/07');
+$d->display3('7978930861');
+?>

@@ -1,0 +1,30 @@
+<?php
+// Single class implments more than one interface
+interface A
+{
+public function display1();
+}
+
+interface B
+{
+public function display2();
+}
+
+class C implements A,B
+{
+
+public function display1()
+{
+echo "Interface A";
+}
+public function display2()
+{
+echo "Interface B";
+}
+
+}
+
+$c = new C();
+$c->display1();
+$c->display2();
+?>

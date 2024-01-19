@@ -1,0 +1,25 @@
+<html>
+<head><title>The Array Object</title>
+
+<script type="text/javascript">
+var week = new Array(7); 
+week[0] = "Sunday"; 
+week[1] = "Monday"; 
+week[2] = "Tuesday"; 
+week[3] = "Wednesday"; 
+week[4] = "Thursday"; 
+week[5] = "Friday"; 
+week[6] = "Saturday"; 
+</script>
+</head>
+<body>
+
+<script type="text/javascript">
+for(var i in week)
+{
+document.write("week[" + i + "] "+ week[i] + "<br>");
+}
+</script>
+
+</body>
+</html>
